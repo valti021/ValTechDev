@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValTech.dev | Tecnologia e Programação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cores.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/cursos-conteiner.css">
+    <link rel="stylesheet" href="css/videos-conteiner.css">
+    <link rel="stylesheet" href="css/projects-conteiner.css">
+    <link rel="stylesheet" href="css/site-footer.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header>
+        <nav class="header-conteiner">
+            <div class="logo-area">
+                <div class="logo-placeholder">
+                    <img src="img/logo.png" alt="Val Tec Logo" id="main-logo">
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li> <a href="#home"> Início</a> </li>
+                <li><a href="#cursos">Cursos</a></li>   
+                <li><a href="#videosEmAlta">Vídeos em Alta</a></li>  
+                <li> <a href="#projetos"> Projetos</a> </li>
+                <li> <a href="https://www.youtube.com/@val_te_ch" target="_blank"> Canal</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+            <div class="container-hero">
+                <h1> Transformando o dia de <span class="highlight"> forma leve</span> .</h1>
+                <p> Tutoriais, dicas de tecnologia e meus projetos de desenvolvimento em um só lugar.</p>
+                <a href="https://www.youtube.com/@val_te_ch" target="_blank" class="btn-main"> Conhecer o Canal</a>
+            </div>
+    </section>
+
+    <main class="main-content">
+        
+
+        <section id="cursos" class="cursos-conteiner">
+
+            <div class="sub-titulo">
+                <h2 class="section-title">Cursos Disponíveis</h2>
+            </div>
+            
+            
+
+            <div class="courses-grid" id="coursesGrid">
+                <!-- Os cards dos cursos entram aqui via JS -->
+            </div>
+            <a href="https://www.youtube.com/@val_te_ch/courses" target="_blank" >Ver todos os cursos</a>
+        </section>
+
+        <!-- Seção Vídeos em Alta -->
+        <section id="videosEmAlta" class="videos-conteiner">
+            <div class="sub-titulo">
+                <h2 class="section-title">Vídeos em Alta</h2>
+            </div>
+
+            <div class="videos-grid" id="trendingVideos">
+                <!-- Os cards NÃO serão inseridos diretamente aqui -->
+                <!-- Em vez disso, cada vídeo será inserido em uma div.card-video -->
+                <!-- O JavaScript vai apenas preencher os dados dentro da estrutura existente -->
+            </div>
+        </section>
+
+        <!-- Template HTML para cada card de vídeo -->
+        <template id="videoCardTemplate">
+            <div class="card-video">
+                <div class="capa">
+                    <a href="#" target="_blank" class="video-link">
+                        <img src="#" alt="Thumbnail do vídeo" class="video-thumb">
+                        <div class="play-button"><i class="fa-solid fa-play"></i></div>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">
+                        <a href="#" target="_blank" class="title-link">Título do Vídeo</a>
+                    </h3>
+                    <div class="video-stats">
+                        <span class="views">0 visualizações</span>
+                        <span class="date">Há 0 dias</span>
+                        <span class="likes">0 likes</span>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+
+
+
+        <section id="projetos" class="projects-conteiner">
+            <h2 class="section-title">Meus Projetos</h2>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Os cards dos repositórios do GitHub entram aqui via JS -->
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="img/logo.png" alt="ValTech Logo" id="footer-logo">
+                <p>Transformando o dia de forma leve — tutoriais, projetos e dicas.</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Footer Navigation">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="https://www.youtube.com/@val_te_ch" target="_blank">Canal</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Receba novidades por e-mail.</p>
+                <form action="#" class="newsletter-form" onsubmit="event.preventDefault(); alert('Obrigado!');">
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <button class="btn-main">Inscrever</button>
+                </form>
+            </div>
+
+            <div class="footer-social">
+                <h3>Contato</h3>
+                <p><a href="https://www.youtube.com/@val_te_ch" target="_blank">YouTube</a></p>
+                <p><a href="mailto:contato@valtech.dev">contato@valtech.dev</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2025 ValTech.dev — Por Val</p>
+                <a href="#home" class="back-to-top">Topo ↑</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/cursos.js"></script>
+    <script src="js/videos-alta.js"></script>
+    <script src="js/repositorios-git-hub.js"></script>
+</body>
+</html >

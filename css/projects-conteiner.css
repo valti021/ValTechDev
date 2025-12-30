@@ -1,0 +1,35 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.project-card {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    border-color: #007dbb;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h3 {
+    color: #007dbb;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    color: #f89107;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
