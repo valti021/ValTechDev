@@ -6,14 +6,8 @@
     <title>ValTech.dev | Tecnologia e Programação</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/cores.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/cursos-conteiner.css">
-    <link rel="stylesheet" href="css/videos-conteiner.css">
-    <link rel="stylesheet" href="css/projects-conteiner.css">
-    <link rel="stylesheet" href="css/site-footer.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -25,7 +19,15 @@
                     <img src="img/logo.png" alt="Val Tec Logo" id="main-logo">
                 </div>
             </div>
-            <ul class="nav-links">
+            
+            <!-- Botão do menu hambúrguer -->
+            <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
                 <li> <a href="#home"> Início</a> </li>
                 <li><a href="#cursos">Cursos</a></li>   
                 <li><a href="#videosEmAlta">Vídeos em Alta</a></li>  
@@ -148,5 +150,6 @@
     <script src="js/cursos.js"></script>
     <script src="js/videos-alta.js"></script>
     <script src="js/repositorios-git-hub.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 </html >

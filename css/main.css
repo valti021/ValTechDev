@@ -1,3 +1,13 @@
+@import url('videos-conteiner.css');
+@import url('cursos-conteiner.css');
+@import url('projects-conteiner.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('site-footer.css');
+@import url('cores.css');
+@import url('reset.css');
+
+
 main{
     max-width: 1200px;
     margin: 0 auto;
