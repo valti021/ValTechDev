@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Como Instalar o Ubuntu Passo a Passo – Guia Completo para Iniciantes!",
+        "url": "https://www.youtube.com/watch?v=dBAD1XISpag",
+        "thumbnail": "img/card-video/Aprenda-a-instalar-o-Ubuntu-do-zero.png",
+        "views": 267,
+        "likes": 150,
+        "date": "10 de mai. de 2025",
+        "duration": "14:28"
+    },
+    {
+        "id": 2,
+        "title": "Transmitir Tela do Android no PC de Forma Fácil e Grátis",
+        "url": "https://www.youtube.com/watch?v=0gyNk1cWbsA",
+        "thumbnail": "img/card-video/Transmitir-Tela-do-Android-no-PC-de-Forma-Fácil-e-Grátis.png",
+        "views": 1100,
+        "likes": 250,
+        "date": "Há 7 meses",
+        "duration": "09:42"
+    },
+    {
+        "id": 3,
+        "title": "Como Deixar o PC Sempre Ligado Sem Suspender",
+        "url": "https://www.youtube.com/watch?v=0vmkxIxcx2Q",
+        "thumbnail": "img/card-video/Como-Deixar-o-PC-Sempre-Ligado-Sem-Suspender-ou-Apagar-a-Tela.png",
+        "views": 180,
+        "likes": 56,
+        "date": "Há 1 dia",
+        "duration": "03:14"
+    },
+    {
+        "id": 4,
+        "title": "Como Fazer uma Live no YouTube Usando o OBS Studio | Guia Completo - Val Tech",
+        "url": "https://www.youtube.com/watch?v=cHji6QzQTGo",
+        "thumbnail": "img/card-video/Como-Fazer-uma-Live-no-YouTube-Usando-o-OBS-Studio -Guia-Completo-Val-Tech.png",
+        "views": 197,
+        "likes": 25,
+        "date": "Há 9 meses",
+        "duration": "18:40"
+    },
+    {
+        "id": 5,
+        "title": "Como Instalar o VS Code no Terminal em um PC Linux Mint - Passo a Passo",
+        "url": "https://www.youtube.com/watch?v=zzEBVZpq3NI",
+        "thumbnail": "img/card-video/VS-Code-no-Linux-Mint-Instale-Rapido-e-Sem-Erros.png",
+        "views": 1700,
+        "likes": 560,
+        "date": "Há 1 ano",
+        "duration": "07:03"
+    }
+]

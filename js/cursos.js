@@ -1,5 +1,5 @@
 // ===================== CURSOS (JSON EXTERNO) =====================
-const COURSES_JSON_URL = "data/courses.json";
+const COURSES_JSON_URL = "data/cursos.json";
 const YT_MAX_COURSES = 2;
 
 const coursesContainer = document.getElementById("coursesGrid");
